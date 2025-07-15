@@ -1,0 +1,5 @@
+$env:WEBHOOK_URL = "http://localhost:8000/webhooks/new-subscription"
+$env:INTERVAL_SECONDS = "15"
+$env:SUB_USERNAME = "maria"
+$env:SUB_MONTHLY_FEE = "49.99"
+uvicorn main:app --reload
